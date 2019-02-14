@@ -1,0 +1,12 @@
+class demo
+{
+  void dis()
+  {
+    print("Hello");
+  }
+}
+void main()
+{
+  demo a=new demo();
+  a.dis();
+}
