@@ -1,0 +1,51 @@
+//If there are 3 different vehicles and each of them have some common properties such as ignitioin and accelerator so and so forth.
+//hence an interface can defined which includes all such functions and its defintioins.
+void main()
+{
+  var v = vehicle();
+   v.engiene();
+  v.accelerator();
+  var c=car();
+  c.engiene();
+  c.accelerator();
+  c.a;
+  var s=scooter();
+  s.engiene();
+  s.accelerator();
+  s.b;
+}
+class vehicle{
+  void engiene()
+  {
+   print("The vehicle is ready!!");
+  }
+    void accelerator()
+    {
+      print("The vehicle is accelerating");
+    }
+  }
+
+class car implements vehicle //interface is used which is the class vehicle
+{
+ void engiene()
+  {
+   print("The car is ready!!");
+  }
+    void accelerator()
+    {
+      print("The car is accelerating");
+    }
+  var a=print("car is moving!!");
+}
+class scooter implements vehicle
+{
+  void engiene()
+  {
+   print("The scooter is ready!!");
+  }
+    void accelerator()
+    {
+      print("The scooter is accelerating");
+    }
+ var b=print("THe scooter is moving on the road!!");
+} 
