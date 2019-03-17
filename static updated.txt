@@ -1,0 +1,18 @@
+void main()
+{
+  print(demo.a);
+  demo.demo1();
+  var dem=demo();
+  dem.num();
+}
+class demo
+{
+static int a=10;
+  static void demo1(){
+  print('the number is as shown above');
+  }
+  void num(){
+    demo1();
+  print('hello i am a learner');
+  }
+}
