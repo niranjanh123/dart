@@ -1,0 +1,18 @@
+void main()
+{
+  var a=demo();
+  a.percentage=450;
+  print("Your percentage is ${a.percentage}");
+  
+}
+class demo
+{
+  double percent;
+   
+  void set percentage(double marks)//custom setter
+  {
+   percent=(marks/500)*100;
+  }
+  double get percentage=>percent;//custom getter
+  
+}
