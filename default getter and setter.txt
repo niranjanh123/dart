@@ -1,0 +1,9 @@
+void main()
+{
+var s=animal();
+  s.name="dog";//default getter and setter
+  print(s.name);
+}
+class animal{
+String name;
+}
