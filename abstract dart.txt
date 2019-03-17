@@ -1,0 +1,24 @@
+void main()
+{
+  var ani = subanimal();
+  ani.color();
+  ani.character();
+}
+abstract class Animal{
+String name;
+  int age;
+  void character();
+  void eat()
+  {
+print("I am having my lunch");
+  }
+}
+class subanimal{
+  void character()
+  {
+    print('i like to eat more food');
+  }
+  void color(){
+    print("I am brown in color");
+   }
+}//use of abstract class is the abstract method has to be overridden by using concept of inheritence.Abstact class cannot be instantiated.
