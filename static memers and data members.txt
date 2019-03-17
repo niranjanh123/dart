@@ -1,0 +1,12 @@
+void main()
+{
+  print(demo.a);
+  demo.demo1();
+}
+class demo
+{
+static int a=10;
+  static void demo1(){
+  print('the number is as shown above');
+  }
+}
