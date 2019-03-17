@@ -1,0 +1,27 @@
+
+    
+void main()
+{
+  var ani = subanimal();
+  ani.color();
+  ani.character();
+  ani.eat();
+ }
+abstract class Animal{
+String name;
+  int age;
+  void character();
+  void eat();
+}
+class subanimal{
+  void character()
+  {
+    print('i like to eat more food');
+  }
+  void color(){
+    print("I am brown in color");
+   }
+   void eat(){
+     print("I am having my lunch");
+  }
+}
