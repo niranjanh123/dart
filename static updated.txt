@@ -15,4 +15,7 @@ static int a=10;
     demo1();
   print('hello i am a learner');
   }
-}
+}//static varaibles are also called as class variables and static members are also called as class members
+//static methods have nothing to do with class object or instances.
+//normal functions can use the staic methods and members but vice versa is not possible.
+//memory usage will be more efficient as it will be used only once.
