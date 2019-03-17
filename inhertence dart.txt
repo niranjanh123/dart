@@ -1,0 +1,31 @@
+
+void main()
+{
+  var sub=subanimal();
+  sub.name="Pug";
+  sub.age=10;
+  print("name is ${sub.name}");
+  print("age is ${sub.age}");
+  sub.character();
+  sub.color();
+    var ani= Animal();
+  ani.eat();
+}
+ class Animal{
+String name;
+  int age;
+   void eat()
+  {
+print("I am having my lunch");
+  }
+}
+class subanimal extends Animal{
+   
+  void character()
+  {
+    print('i like to eat more food');
+  }
+  void color(){
+    print("I am brown in color");
+   }
+}
