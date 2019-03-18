@@ -1,0 +1,5 @@
+void main()
+{
+ Function number = (int a,int b) => print(a+b);//lambda expression using fat arrow
+  number(5,5);
+}

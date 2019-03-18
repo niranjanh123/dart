@@ -1,0 +1,18 @@
+//a function that can accept another function as a parmater is called as higher order function
+//a function that can return a function is also called a higher order function
+void main()
+{
+  var func=(int a,int b)=>print(a+b);
+fun("HELLO",func);
+  var myfunc=Task();
+  print(myfunc(5));
+}
+void fun(String a, Function myfun)
+{
+  print(a);
+  myfun(2,3);
+}
+Function Task(){
+Function mul=(int num)=>4*num;
+return mul;
+}

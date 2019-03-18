@@ -1,0 +1,9 @@
+void main()
+{ 
+    var num = (int a,int b)//Lambda functions are name less functions hence it is assigned to                                  num of type var 
+    {
+   int sum=a+b;
+    print(sum);
+  };//should end with with semicolon
+  num(2,30);//calling a lambda funtion
+}
