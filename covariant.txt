@@ -1,0 +1,29 @@
+class A {} 
+class B extends A {} 
+  
+class Base 
+{ 
+    A fun() 
+    { 
+        print("Base fun()"); 
+         return new A();
+    } 
+} 
+  
+class Derived extends Base 
+{ 
+    B fun() 
+    { 
+        print("Derived fun()"); 
+        return new B();
+    } 
+} 
+  
+void main() 
+    { 
+       Base base = new Base(); 
+       base.fun(); 
+  
+       Derived derived = new Derived(); 
+       derived.fun(); 
+    } 
